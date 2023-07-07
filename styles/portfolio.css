@@ -22,7 +22,7 @@ padding: 15px 35px;
     text-align: center;
 }
 .section-description{
-    color: , #757575;
+    color:  #757575;
 text-align: center;
 font-size: 18px;
 
@@ -95,6 +95,10 @@ width: 600px;
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 
 /* about section styles */
@@ -105,3 +109,10 @@ background: #FFF8F3;
 margin: 130px 0;
 }
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
